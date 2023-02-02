@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo01.css">
+    <title>五五大战人员选择器</title>
+</head>
+
+<body>
+    <div class="opgg">
+        <a href="https://www.op.gg/champions?region=kr&tier=platinum_plus&position=jungle" target="_blank">OPGG</a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">五五大战人员选择器</a></li>
+        </ul>
+    </div>
+    <div class="choose">
+        <input type="checkbox" id="check1" class="test" value="毛毛"><label for="check1">毛毛</label>
+        <input type="checkbox" id="check2" class="test" value="厨师"><label for="check2">厨师</label>
+        <input type="checkbox" id="check3" class="test" value="尼哥"><label for="check3">尼哥</label>
+        <input type="checkbox" id="check4" class="test" value="真伪"><label for="check4">真伪</label>
+        <input type="checkbox" id="check5" class="test" value="男哥"><label for="check5">男哥</label>
+        <br>
+        <input type="checkbox" id="check6" class="test" value="方哥"><label for="check6">方哥</label>
+        <input type="checkbox" id="check7" class="test" value="巨巨"><label for="check7">巨巨</label>
+        <input type="checkbox" id="check8" class="test" value="超超"><label for="check8">超超</label>
+        <input type="checkbox" id="check9" class="test" value="龙哥"><label for="check9">龙哥</label>
+        <input type="checkbox" id="check10" class="test" value="运气"><label for="check10">运气</label>
+        <br>
+        <input type="checkbox" id="check11" class="test" value="乐哥"><label for="check11">乐哥</label>
+        <input type="checkbox" id="check12" class="test" value="小鸟"><label for="check12">小鸟</label>
+        <input type="checkbox" id="check13" class="test" value="猴子"><label for="check13">猴子</label>
+        <input type="checkbox" id="check14" class="test" value="九哥"><label for="check14">九哥</label>
+        <input type="checkbox" id="check15" class="test" value="默契"><label for="check15">默契</label>
+        <br>
+        <input type="checkbox" id="check16" class="test" value="瓜哥"><label for="check16">瓜哥</label>
+        <input type="checkbox" id="check17" class="test" value="日本"><label for="check17">日本</label>
+        <input type="checkbox" id="check18" class="test" value="莉莉"><label for="check18">莉莉</label>
+        <input type="checkbox" id="check19" class="test" value="东光"><label for="check19">东光</label>
+        <input type="checkbox" id="check20" class="test" value="其他"><label for="check20">其他</label>
+        <h6></h6><br>
+        <input type="button" onclick="choose_name()" value="确定人员，开始匹配" />
+        <h6></h6><br>
+        <h5>重新分组只要继续匹配即可</h5>
+    </div>
+    <div class="table" id="result">
+        <h2>分组结果</h2>
+        <h6></h6><br>
+        <table border="1">
+            <tr>
+                <th>位置</th>
+                <th>蓝色方</th>
+                <th>红色方</th>
+            </tr>
+            <tr>
+                <td>上单</td>
+                <td class="top1"></td>
+                <td class="top2"></td>
+            </tr>
+            <tr>
+                <td>打野</td>
+                <td class="jungle1"></td>
+                <td class="jungle2"></td>
+            </tr>
+            <tr>
+                <td>中单</td>
+                <td class="middle1"></td>
+                <td class="middle2"></td>
+            </tr>
+            <tr>
+                <td>下路</td>
+                <td class="bottom1"></td>
+                <td class="bottom2"></td>
+            </tr>
+            <tr>
+                <td>辅助</td>
+                <td class="support1"></td>
+                <td class="support2"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="demo01.js"></script>
+</body>
+
+</html>

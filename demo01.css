@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.opgg {
+    position: fixed;
+    top: 15vh ;
+    right: 71vw;
+}
+
+.nav {
+    width: 40vw;
+    height: 10vh;
+    margin: auto;
+    background-color: #f6f7fb;
+    line-height: 10vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+.choose {
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    padding:5vh 0;
+}
+
+.table {
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
+
+.opgg> a{
+    color: red;
+}
+table {
+    width: 40vw;
+    height: 40vh;
+    border-spacing: 0;
+    margin: 0px auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #050505;
+}
+
+input:hover {
+    background-color: orangered;
+}
